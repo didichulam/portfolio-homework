@@ -87,3 +87,35 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+
+  .navigation-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    display: none;
+  }
+
+  p {
+    width: 570px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .app-link {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
