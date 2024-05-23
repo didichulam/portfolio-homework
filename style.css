@@ -5,8 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -88,11 +87,7 @@ p {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 576px) {
-  body {
-    width: 576px;
-  }
-
+@media (max-width: 576px) {
   h2 {
     font-size: 32px;
     line-height: 1.5;
@@ -102,29 +97,15 @@ p {
     font-size: 48px;
     text-align: center;
   }
-  h3 {
-    font-size: 24px;
-  }
-
-  .navigation-links {
-    display: flex;
-    justify-content: center;
-  }
-
-  .image {
-    display: none;
-  }
 
   p {
-    width: 570px;
     text-align: center;
     margin: 0 auto;
   }
 
   .app-link {
-    width: 570px;
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 20px;
   }
 }
